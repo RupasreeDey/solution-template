@@ -1,5 +1,8 @@
 package com.tigerit.exam;
 
+
+import com.tigerit.exam.Solution;
+
 /**
  * Do not change this class file.
  * this file is for your application testing.
