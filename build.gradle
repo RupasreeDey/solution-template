@@ -13,3 +13,6 @@ run {
 task wrapper(type: Wrapper) {
     gradleVersion = '2.8'
 }
+
+compileJava.options.fork = true
+compileJava.options.forkOptions.executable = "/usr/lib/jvm/java-8-oracle/jre/bin/java"
